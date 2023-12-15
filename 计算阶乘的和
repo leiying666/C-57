@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+{
+	int n,sum=0,tmp = 1;
+	scanf("%d",&n);
+	if (n >= 20)
+	{
+		;
+	}
+	else
+	{
+		for (int i = 1; i <= n; i++)
+		{
+			tmp = tmp * i;
+			sum += tmp;
+		}
+		printf("%d\n", sum);
+	}
+	return 0;
+}
